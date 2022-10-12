@@ -1,0 +1,25 @@
+---
+format: 
+  revealjs:
+    theme: 
+      - "theme/my-theme.scss"
+    slide-number: c/t
+    footer: "Link color responds to `$link-color`, not `$linkColor` [quarto.org](https://quarto.org)"
+    height: 1080
+    width: 1920
+---
+
+<h1>Hello Reprex!</h1>
+
+
+<h3>
+Here's a link that is the desired color defined by `$linkColor` in `my-theme.scss`  [quarto.org](https://quarto.org)
+</h3>
+
+<br>
+
+P.S. The hover color `$linkColorHover` also does not correctly apply to the footer, but it does apply to the page numbers.
+
+## Here's Another Page
+To show that the page numbers are a different color, not affected by `$linkColor`
+

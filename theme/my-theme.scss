@@ -1,0 +1,26 @@
+
+
+/*-- scss:defaults --*/
+// Background of the presentation
+$backgroundColor: #F6F6F6;
+
+// Primary/body text
+$mainFont: 'Jost', sans-serif;
+$mainFontSize: 40px;
+$mainColor: #333;
+
+$codeFont: monospace;
+$code-color: #A33B20;
+
+// Links and actions
+$linkColor: #FCA311;
+$linkColorHover: darken( $linkColor, 20% );
+
+// Controls Footer Colors
+//$link-color: #5B6C5D;
+
+
+
+// Text selection
+$selectionBackgroundColor: #A6CFD5;
+$selectionColor: #fff;
